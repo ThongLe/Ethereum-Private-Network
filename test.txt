@@ -1,0 +1,5 @@
+curl http://localhost:8545 -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"eth_getBalance","params": ["0x7841539f92e167e28b69990ba09e1c0669d31481", "latest"],"id":1}'
+
+curl http://localhost:8545 -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"eth_getBalance","params": ["0x6200e90e31ed2aa77538b9cf12352251ea9067ed", "latest"],"id":1}'
+
+curl http://localhost:8545 -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params": [],"id":1}'

@@ -22,3 +22,4 @@ RUN geth init eth_common/genesis.json
 
 ENTRYPOINT bash
 
+RUN ./eth_common/setup_account 
